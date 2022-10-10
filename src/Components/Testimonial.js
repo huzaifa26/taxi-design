@@ -49,7 +49,7 @@ export default function Testimonial() {
 
     return (
         <div className="bg-[#f5f5f5]">
-            <div className="relative w-[calc(100vw - 100%)] mt-[100px]">
+            <div id="contact" className="relative w-[calc(100vw - 100%)] mt-[100px]">
                 <img className="absolute z-0 xsm:top-[10%] top-[20%] left-[50%] translate-x-[-50%] min-h-[93px]" src="./images/TCB.png" />
                 <div className="relative z-10 flex items-center w-[80%] m-auto">
                     <img className="xsm:relative xsm:left-[-5%] w-[36.25vw] min-w-[166px]" src="./images/TCBcar.png" />

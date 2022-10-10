@@ -1,6 +1,6 @@
 export default function Benefits(){
     return(
-        <div className="w-[calc(100vw - 100%)] pt-[100px] bg-[#f5f5f5]">
+        <div id="benefit" className="w-[calc(100vw - 100%)] pt-[100px] bg-[#f5f5f5]">
             <div className="flex xsm:w-[98vw] sm:w-[90vw] w-[80.37013888888889vw] m-auto">
                 <div>
                     <p className="font-[300] text-[clamp(10px,0.9722222222222222vw,14px)] leading-[21px] text-[#181818]">There’s more to love the app</p>

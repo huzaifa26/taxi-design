@@ -19,12 +19,12 @@ export default function Navbar(props){
 
                 <div className="flex sm:gap-[6.972222222222221vw] md:gap-[6.972222222222221vw] gap-[10.972222222222221vw] items-center">
                     <ul className="flex text-[clamp(14px,1.25vw,18px)] gap-[2.0833333333333335vw] font-[500] text-[#464D54] leading-[27px]">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Service Area</li>
-                        <li>Fleet</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#service">Service Area</a></li>
+                        <li><a href="#ho">Fleet</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
                     <button className="w-[137px] h-[40px] bg-[#FF9F43] rounded-[10px] text-[18px] font-[400] leading-[27px] text-[#FFFFFF]">Login As</button>
@@ -50,12 +50,12 @@ export default function Navbar(props){
 
         </div>
         <ul style={showNav === false ?{maxHeight:0}:{maxHeight:"500px",borderTop:"1px solid white",padding:"10px 0"}} className="xsm:bg-[#474C56] transition-all ease-in-out delay-[0.1s] duration-500 sm:bg-[#474C56] xsm:flex sm:flex hidden flex-col items-center text-[clamp(14px,1.25vw,18px)] gap-[2.0833333333333335vw] font-[500] text-[#fff] leading-[27px]">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Service Area</li>
-            <li>Fleet</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a>Service Area</a></li>
+            <li><a href="#ho">Fleet</a></li>
+            <li><a>Blog</a></li>
+            <li><a href="#benefit">Contact</a></li>
         </ul>
         </div>
     )

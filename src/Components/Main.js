@@ -1,6 +1,6 @@
 export default function Main(props){
     return(
-        <div className="mainBackground w-[calc(100vw - 100%)]bg-[#f5f5f5]">
+        <div id="main" className="mainBackground w-[calc(100vw - 100%)]bg-[#f5f5f5]">
             <div>{props.children}</div>
             <div className="h-[calc(100%-80px)] flex xsm:flex-col sm:flex-col items-center xsm:gap-[20px] sm:gap-[20px] gap-[101px] xsm:bg-white sm:bg-white">
                 <div>

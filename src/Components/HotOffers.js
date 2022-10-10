@@ -45,7 +45,7 @@ export default function HotOffers(){
     }
 
     return(
-        <div className="w-[calc(100vw - 100%)]">
+        <div id="ho" className="w-[calc(100vw - 100%)]">
             <div className="mt-[70px] xsm:mt-[44px] sm:mt-[44px] mb-[31px]">
                 <p className="text-center font-[300] text-[24px] leading-[24px]">Our Fleets Come with</p>
                 <h2 className="text-center font-[700] text-[36px] leading-[54px]">Hot Offers</h2>

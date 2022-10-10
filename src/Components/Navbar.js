@@ -52,10 +52,10 @@ export default function Navbar(props){
         <ul style={showNav === false ?{maxHeight:0}:{maxHeight:"500px",borderTop:"1px solid white",padding:"10px 0"}} className="xsm:bg-[#474C56] transition-all ease-in-out delay-[0.1s] duration-500 sm:bg-[#474C56] xsm:flex sm:flex hidden flex-col items-center text-[clamp(14px,1.25vw,18px)] gap-[2.0833333333333335vw] font-[500] text-[#fff] leading-[27px]">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
-            <li><a>Service Area</a></li>
+            <li><a href="#service">Service Area</a></li>
             <li><a href="#ho">Fleet</a></li>
             <li><a>Blog</a></li>
-            <li><a href="#benefit">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         </div>
     )

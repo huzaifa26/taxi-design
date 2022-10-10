@@ -62,7 +62,8 @@ export default function HotOffers(){
 
             <div className="flex gap-[30px] m-auto mt-[30px] flex-wrap justify-center ">
 
-                <div className="flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                <div className="relative flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                    <div className="absolute top-[2%] right-0 rounded-tl-full rounded-bl-full flex justify-center items-center text-[white] leading-[15.8px] text-[10.53px] font-[500] bg-[#EC3323] w-[85px] h-[25px]">$ 75.00</div>
                     <img src="./images/HO1.png" alt=""/>
                     <h3 className="mt-[16px] text-[28px] leading-[42px] font-[400]">SALOON / SEDAN</h3>
                     <div className="mt-[16px] flex gap-[38px] font-[400] text-[18px] text-[#474C56]">
@@ -78,7 +79,8 @@ export default function HotOffers(){
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                <div className="relative flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                    <div className="absolute top-[2%] right-0 rounded-tl-full rounded-bl-full flex justify-center items-center text-[white] leading-[15.8px] text-[10.53px] font-[500] bg-[#EC3323] w-[85px] h-[25px]">$ 75.00</div>
                     <img src="./images/HO2.png" alt=""/>
                     <h3 className="mt-[16px] text-[28px] leading-[42px] font-[400]">ESTATE / WAGON</h3>
                     <div className="mt-[16px] flex gap-[38px] font-[400] text-[18px] text-[#474C56]">
@@ -94,7 +96,8 @@ export default function HotOffers(){
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                <div className="relative flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                    <div className="absolute top-[2%] right-0 rounded-tl-full rounded-bl-full flex justify-center items-center text-[white] leading-[15.8px] text-[10.53px] font-[500] bg-[#EC3323] w-[85px] h-[25px]">$ 75.00</div>
                     <img src="./images/HO3.png" alt=""/>
                     <h3 className="mt-[16px] text-[28px] leading-[42px] font-[400]">PEOPLE CARRIER / MPV</h3>
                     <div className="mt-[16px] flex gap-[38px] font-[400] text-[18px] text-[#474C56]">
@@ -110,7 +113,8 @@ export default function HotOffers(){
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                <div className="relative flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                    <div className="absolute top-[2%] right-0 rounded-tl-full rounded-bl-full flex justify-center items-center text-[white] leading-[15.8px] text-[10.53px] font-[500] bg-[#EC3323] w-[85px] h-[25px]">$ 75.00</div>
                     <img src="./images/HO4.png" alt=""/>
                     <h3 className="mt-[16px] text-[28px] leading-[42px] font-[400]">EXECUTIVE</h3>
                     <div className="mt-[16px] flex gap-[38px] font-[400] text-[18px] text-[#474C56]">
@@ -126,7 +130,8 @@ export default function HotOffers(){
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                <div className="relative flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                    <div className="absolute top-[2%] right-0 rounded-tl-full rounded-bl-full flex justify-center items-center text-[white] leading-[15.8px] text-[10.53px] font-[500] bg-[#EC3323] w-[85px] h-[25px]">$ 75.00</div>
                     <div className="flex justify-center items-center min-w-[425px] min-h-[245px]">
                         <img src="./images/HO5.png" alt=""/>
                     </div>
@@ -144,7 +149,8 @@ export default function HotOffers(){
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                <div className="relative flex flex-col items-center w-[29.65277777777778vw] min-w-[377.68px] boxShadow bg-white">
+                    <div className="absolute top-[2%] right-0 rounded-tl-full rounded-bl-full flex justify-center items-center text-[white] leading-[15.8px] text-[10.53px] font-[500] bg-[#EC3323] w-[85px] h-[25px]">$ 75.00</div>
                     <img  src="./images/HO6.png" alt=""/>
                     <h3 className="mt-[16px] text-[28px] leading-[42px] font-[400]">16 SEATER MINIBUS</h3>
                     <div className="mt-[16px] flex gap-[38px] font-[400] text-[18px] text-[#474C56]">

@@ -1,10 +1,10 @@
 export default function HWW(){
     return(
-        <div className="w-[calc(100vw - 100%)] flex flex-col items-center bg-[#fff]">
-            <div className="mt-[70px] flex w-[41.666666666666664vw] min-w-[288px] bg-[#F7F7F7] rounded-[20px] gap-[6.111111111111111vw] justify-center items-center">
-                <p className="text-[clamp(10px,1.6666666666666667vw,24px)] font-[500] leading-[24px]">Hire a luxury Cars</p>
+        <div className="w-[calc(100vw - 100%)] flex flex-col items-center bg-[#f5f5f5]">
+            <div className="mt-[70px] flex w-[41.666666666666664vw] min-w-[288px] bg-[#F7F7F7] shadow-sm rounded-[20px] gap-[6.111111111111111vw] justify-center items-center">
+                <p className="text-[clamp(10px,1.1111111111111112vw,16px)] font-[500] leading-[24px]">Hire a luxury Cars</p>
                 <div className="flex justify-center items-center w-[3.611111111111111vw] xsm:min-h-[24.96px] sm:min-h-[24.96px] min-h-[50px] min-w-[24.96px] bg-[#115FA6] rounded-full"><img className="w-[1.3888888888888888vw] min-w-[13px]" src="./images/and.png"/></div>
-                <p className="text-[clamp(10px,1.6666666666666667vw,24px)] font-[500] leading-[24px]">Hire a Seden Cars</p>
+                <p className="text-[clamp(10px,1.1111111111111112vw,16px)] font-[500] leading-[24px]">Hire a Seden Cars</p>
             </div>
             <img className="mt-[60px]" src="./images/HWWmain.png" alt=""/>
             <div>

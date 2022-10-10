@@ -1,6 +1,6 @@
 export default function Benefits(){
     return(
-        <div className="w-[calc(100vw - 100%)] pt-[100px] bg-white">
+        <div className="w-[calc(100vw - 100%)] pt-[100px] bg-[#f5f5f5]">
             <div className="flex xsm:w-[98vw] sm:w-[90vw] w-[80.37013888888889vw] m-auto">
                 <div>
                     <p className="font-[300] text-[clamp(10px,0.9722222222222222vw,14px)] leading-[21px] text-[#181818]">There’s more to love the app</p>
@@ -28,8 +28,8 @@ export default function Benefits(){
                     </div>
                 </div>
 
-                <div className="flex-1 flex justify-center items-center xsm:flex-none sm:flex-none xsm:justify-start sm:justify-center">
-                    <img className="w-[27.314583333333335vw] min-w-[200px] xsm:relative left-[-50%]" src="./images/mobileb.png" alt=""/>
+                <div className="flex-1 flex justify-center items-center xsm:flex-none sm:flex-none xsm:justify-start sm:justify-center xsm:relative left-[-20%]">
+                    <img className="w-[27.314583333333335vw] min-w-[170px] " src="./images/mobileb.png" alt=""/>
                 </div>
             </div>
         </div>

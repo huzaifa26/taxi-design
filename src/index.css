@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body{
+  overflow-x: hidden;
   background-color: #F7F7F7;
 }
 
@@ -37,6 +38,27 @@ h1,h2,h3,h4,h5,h6,p,span,input,select{
   transform: skew(-15deg, 0deg);
 }
 
+.skewRed{
+  position: relative;
+  width: 104px;
+}
+
+.skewRed:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #EC3323;
+  transform-origin: bottom left;
+  -ms-transform: skew(-15deg, 0deg);
+  -webkit-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
 .skew2{
   position: relative;
   width: 104px;
@@ -52,6 +74,27 @@ h1,h2,h3,h4,h5,h6,p,span,input,select{
   left: 0;
   z-index: -1;
   background: #D9D9D9;
+  transform-origin: top left;
+  -ms-transform: skew(-15deg, 0deg);
+  -webkit-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
+.skew2Red{
+  position: relative;
+  width: 104px;
+}
+
+.skew2Red:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #EC3323;
   transform-origin: top left;
   -ms-transform: skew(-15deg, 0deg);
   -webkit-transform: skew(-15deg, 0deg);
@@ -89,6 +132,43 @@ h1,h2,h3,h4,h5,h6,p,span,input,select{
   left: 0;
   z-index: -1;
   background: #D9D9D9;
+  transform-origin: top left;
+  -ms-transform: skew(-15deg, 0deg);
+  -webkit-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
+.skew3Red{
+  position: relative;
+  width: 104px;
+}
+
+.skew3Red:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #EC3323;
+  transform-origin: bottom left;
+  -ms-transform: skew(-15deg, 0deg);
+  -webkit-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
+.skew3Red:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #EC3323;
   transform-origin: top left;
   -ms-transform: skew(-15deg, 0deg);
   -webkit-transform: skew(-15deg, 0deg);
